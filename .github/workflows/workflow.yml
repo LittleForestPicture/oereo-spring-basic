@@ -3,13 +3,11 @@ name: Java CI with Gradle # workflow 이름
 # event 정의
 on:
   pull_request:
-    # main branch에 PR 이벤트가 일어날 경우 해당 action 트리거
     branches: [ main ]
 
 jobs:
   build:
 
-    # 우분투 최신버전 가상환경 사용
     runs-on: ubuntu-latest
 
     steps:
