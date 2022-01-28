@@ -1,5 +1,5 @@
 # Spring Basic 
-
+[![codecov](https://codecov.io/gh/LittleForestPicture/oereo-spring-basic/branch/main/graph/badge.svg?token=VKDNGX66ZK)](https://codecov.io/gh/LittleForestPicture/oereo-spring-basic)
 ## EJB
 - EJB 를 많이 사용하였지만 복잡하고 어렵고 느린 문제점
 - EJB에 맞는 인터페이스, EJB에 의존성 문 -> 코드 더러워짐
@@ -126,3 +126,24 @@ OCP, DIP 원칙을 지키기 위해 스프링 프레임워크 만들게 된다. 
 - 객체의 인스턴스가 오직 1개만 생성되는 패턴을 의미
 
 ## 진도율
+- 90%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
