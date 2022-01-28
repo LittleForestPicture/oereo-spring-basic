@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Order.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">core</a> &gt; <a href="index.source.html" class="el_package">hello.core.order</a> &gt; <span class="el_source">Order.java</span></div><h1>Order.java</h1><pre class="source lang-java linenums">package hello.core.order;
+
+public class Order {
+
+    private Long memberId;
+    private String itemName;
+    private int itemPrice;
+    private int discountPrice;
+
+<span class="fc" id="L10">    public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {</span>
+<span class="fc" id="L11">        this.memberId = memberId;</span>
+<span class="fc" id="L12">        this.itemName = itemName;</span>
+<span class="fc" id="L13">        this.itemPrice = itemPrice;</span>
+<span class="fc" id="L14">        this.discountPrice = discountPrice;</span>
+<span class="fc" id="L15">    }</span>
+
+    public int calculatePrice() {
+<span class="nc" id="L18">        return itemPrice - discountPrice;</span>
+    }
+
+    public Long getMemberId() {
+<span class="nc" id="L22">        return memberId;</span>
+    }
+
+    public void setMemberId(Long memberId) {
+<span class="nc" id="L26">        this.memberId = memberId;</span>
+<span class="nc" id="L27">    }</span>
+
+    public String getItemName() {
+<span class="nc" id="L30">        return itemName;</span>
+    }
+
+    public void setItemName(String itemName) {
+<span class="nc" id="L34">        this.itemName = itemName;</span>
+<span class="nc" id="L35">    }</span>
+
+    public int getItemPrice() {
+<span class="nc" id="L38">        return itemPrice;</span>
+    }
+
+    public void setItemPrice(int itemPrice) {
+<span class="nc" id="L42">        this.itemPrice = itemPrice;</span>
+<span class="nc" id="L43">    }</span>
+
+    public int getDiscountPrice() {
+<span class="fc" id="L46">        return discountPrice;</span>
+    }
+
+    public void setDiscountPrice(int discountPrice) {
+<span class="nc" id="L50">        this.discountPrice = discountPrice;</span>
+<span class="nc" id="L51">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L55">        return &quot;Order{&quot; +</span>
+                &quot;memberId=&quot; + memberId +
+                &quot;, itemName='&quot; + itemName + '\'' +
+                &quot;, itemPrice=&quot; + itemPrice +
+                &quot;, discountPrice=&quot; + discountPrice +
+                '}';
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

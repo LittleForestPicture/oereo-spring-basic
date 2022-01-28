@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ko"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OrderApp.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">core</a> &gt; <a href="index.source.html" class="el_package">hello.core</a> &gt; <span class="el_source">OrderApp.java</span></div><h1>OrderApp.java</h1><pre class="source lang-java linenums">package hello.core;
+
+import hello.core.member.Grade;
+import hello.core.member.Member;
+import hello.core.member.MemberService;
+import hello.core.member.MemberServiceImpl;
+import hello.core.order.Order;
+import hello.core.order.OrderService;
+import hello.core.order.OrderServiceImpl;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+<span class="nc" id="L13">public class OrderApp {</span>
+
+    public static void main(String[] args) {
+//        AppConfig appConfig = new AppConfig();
+//        MemberService memberService = appConfig.memberService();
+//        OrderService orderService = appConfig.orderService();
+
+<span class="nc" id="L20">        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);</span>
+<span class="nc" id="L21">        MemberService memberService = applicationContext.getBean(&quot;memberService&quot;, MemberService.class);</span>
+<span class="nc" id="L22">        OrderService orderService = applicationContext.getBean(&quot;orderService&quot;, OrderService.class);</span>
+
+<span class="nc" id="L24">        Long memberId = 1L;</span>
+<span class="nc" id="L25">        Member member = new Member(memberId, &quot;memberA&quot;, Grade.VIP);</span>
+<span class="nc" id="L26">        memberService.join(member);</span>
+
+<span class="nc" id="L28">        Order order = orderService.createOrder(memberId, &quot;itemA&quot;, 10000);</span>
+
+<span class="nc" id="L30">        System.out.println(&quot;order&quot; + order.toString());</span>
+<span class="nc" id="L31">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
