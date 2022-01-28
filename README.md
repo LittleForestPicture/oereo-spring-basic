@@ -1,5 +1,5 @@
 # Spring Basic 
-
+[![codecov](https://codecov.io/gh/LittleForestPicture/oereo-spring-basic/branch/main/graph/badge.svg?token=VKDNGX66ZK)](https://codecov.io/gh/LittleForestPicture/oereo-spring-basic)
 ## EJB
 - EJB 를 많이 사용하였지만 복잡하고 어렵고 느린 문제점
 - EJB에 맞는 인터페이스, EJB에 의존성 문 -> 코드 더러워짐
