@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.autowired.AutoWiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:28" hostname="Macbookui-MacBookPro.local" time="0.007">
+<testsuite name="hello.core.autowired.AutoWiredTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:25" hostname="Macbookui-MacBookPro.local" time="0.015">
   <properties/>
-  <testcase name="AutowiredOption()" classname="hello.core.autowired.AutoWiredTest" time="0.007"/>
+  <testcase name="AutowiredOption()" classname="hello.core.autowired.AutoWiredTest" time="0.015"/>
   <system-out><![CDATA[noBean2 = null
 noBean3 = Optional.empty
 ]]></system-out>

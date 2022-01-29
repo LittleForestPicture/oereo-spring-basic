@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.singleton.StatefulServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.018">
+<testsuite name="hello.core.singleton.StatefulServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.014">
   <properties/>
-  <testcase name="statefulServiceSingleton()" classname="hello.core.singleton.StatefulServiceTest" time="0.018"/>
+  <testcase name="statefulServiceSingleton()" classname="hello.core.singleton.StatefulServiceTest" time="0.014"/>
   <system-out><![CDATA[name = userA price = 10000
 name = userB price = 20000
 price = 10000

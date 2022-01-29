@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.lifecycle.BeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.021">
+<testsuite name="hello.core.lifecycle.BeanLifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.041">
   <properties/>
-  <testcase name="lifeCycleTest()" classname="hello.core.lifecycle.BeanLifeCycleTest" time="0.021"/>
+  <testcase name="lifeCycleTest()" classname="hello.core.lifecycle.BeanLifeCycleTest" time="0.041"/>
   <system-out><![CDATA[생성자 호출, url = null
 connect = http://hello-spring.dev
 call = http://hello-spring.dev message = 초기화 연결 메시지

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.scope.PrototypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.011">
+<testsuite name="hello.core.scope.PrototypeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.015">
   <properties/>
-  <testcase name="prototypeBeanFind()" classname="hello.core.scope.PrototypeTest" time="0.011"/>
+  <testcase name="prototypeBeanFind()" classname="hello.core.scope.PrototypeTest" time="0.015"/>
   <system-out><![CDATA[find prototypeBean1
 PrototypeBean.init
 find prototypeBean2
 PrototypeBean.init
-prototypeBean1 = hello.core.scope.PrototypeTest$PrototypeBean@f86f13d
-prototypeBean2 = hello.core.scope.PrototypeTest$PrototypeBean@7145807a
+prototypeBean1 = hello.core.scope.PrototypeTest$PrototypeBean@3dd1bec8
+prototypeBean2 = hello.core.scope.PrototypeTest$PrototypeBean@43caf97a
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

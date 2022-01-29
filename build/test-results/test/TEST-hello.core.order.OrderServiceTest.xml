@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.order.OrderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.001">
+<testsuite name="hello.core.order.OrderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.003">
   <properties/>
-  <testcase name="createOrder()" classname="hello.core.order.OrderServiceTest" time="0.001"/>
+  <testcase name="createOrder()" classname="hello.core.order.OrderServiceTest" time="0.003"/>
   <system-out><![CDATA[call AppConfig.memberService
 call AppConfig.memberRepository
 call AppConfig.orderService

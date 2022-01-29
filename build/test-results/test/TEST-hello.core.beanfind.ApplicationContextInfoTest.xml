@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.beanfind.ApplicationContextInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.022">
+<testsuite name="hello.core.beanfind.ApplicationContextInfoTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:25" hostname="Macbookui-MacBookPro.local" time="0.021">
   <properties/>
-  <testcase name="애플리케이션 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.003"/>
-  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.002"/>
+  <testcase name="애플리케이션 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.004"/>
+  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextInfoTest" time="0.003"/>
   <system-out><![CDATA[call AppConfig.memberService
 call AppConfig.memberRepository
 call AppConfig.orderService
-name = appConfigobject = hello.core.AppConfig$$EnhancerBySpringCGLIB$$f1f4ee81@2c08b402
-name = memberServiceobject = hello.core.member.MemberServiceImpl@27eeeda8
-name = memberRepositoryobject = hello.core.member.MemoryMemberRepository@3122a8af
-name = orderServiceobject = hello.core.order.OrderServiceImpl@60d2a1c6
-name = discountPolicyobject = hello.core.discount.FixDiscountPolicy@913a17a
+name = appConfigobject = hello.core.AppConfig$$EnhancerBySpringCGLIB$$4a889912@62f15023
+name = memberServiceobject = hello.core.member.MemberServiceImpl@3ceeb6ba
+name = memberRepositoryobject = hello.core.member.MemoryMemberRepository@70bf8804
+name = orderServiceobject = hello.core.order.OrderServiceImpl@20834041
+name = discountPolicyobject = hello.core.discount.FixDiscountPolicy@481b7c3a
 call AppConfig.memberService
 call AppConfig.memberRepository
 call AppConfig.orderService
-name = org.springframework.context.annotation.internalConfigurationAnnotationProcessorobject = org.springframework.context.annotation.ConfigurationClassPostProcessor@5205f975
-name = org.springframework.context.annotation.internalAutowiredAnnotationProcessorobject = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@5d39ef56
-name = org.springframework.context.annotation.internalCommonAnnotationProcessorobject = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@967b0a2
-name = org.springframework.context.event.internalEventListenerProcessorobject = org.springframework.context.event.EventListenerMethodProcessor@332fac2e
-name = org.springframework.context.event.internalEventListenerFactoryobject = org.springframework.context.event.DefaultEventListenerFactory@4e1c256f
-name = appConfigobject = hello.core.AppConfig$$EnhancerBySpringCGLIB$$f1f4ee81@5c4d30a5
-name = memberServiceobject = hello.core.member.MemberServiceImpl@689b792e
-name = memberRepositoryobject = hello.core.member.MemoryMemberRepository@261be6cf
-name = orderServiceobject = hello.core.order.OrderServiceImpl@983983e
-name = discountPolicyobject = hello.core.discount.FixDiscountPolicy@3c7e49b3
+name = org.springframework.context.annotation.internalConfigurationAnnotationProcessorobject = org.springframework.context.annotation.ConfigurationClassPostProcessor@6b423394
+name = org.springframework.context.annotation.internalAutowiredAnnotationProcessorobject = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@6d84d371
+name = org.springframework.context.annotation.internalCommonAnnotationProcessorobject = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@543fb2cd
+name = org.springframework.context.event.internalEventListenerProcessorobject = org.springframework.context.event.EventListenerMethodProcessor@66bc8107
+name = org.springframework.context.event.internalEventListenerFactoryobject = org.springframework.context.event.DefaultEventListenerFactory@1c18d0d7
+name = appConfigobject = hello.core.AppConfig$$EnhancerBySpringCGLIB$$4a889912@574c877e
+name = memberServiceobject = hello.core.member.MemberServiceImpl@7eccee80
+name = memberRepositoryobject = hello.core.member.MemoryMemberRepository@7c7afce7
+name = orderServiceobject = hello.core.order.OrderServiceImpl@26be15d7
+name = discountPolicyobject = hello.core.discount.FixDiscountPolicy@157a0109
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

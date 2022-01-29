@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.scope.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.009">
+<testsuite name="hello.core.scope.SingletonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.007">
   <properties/>
-  <testcase name="singletonBeanFind()" classname="hello.core.scope.SingletonTest" time="0.009"/>
+  <testcase name="singletonBeanFind()" classname="hello.core.scope.SingletonTest" time="0.007"/>
   <system-out><![CDATA[SingletonBean.init
-singletonBean1 = hello.core.scope.SingletonTest$SingletonBean@39e1acd7
-singletonBean2 = hello.core.scope.SingletonTest$SingletonBean@39e1acd7
+singletonBean1 = hello.core.scope.SingletonTest$SingletonBean@61e1ecd5
+singletonBean2 = hello.core.scope.SingletonTest$SingletonBean@61e1ecd5
 SingletonBean.destroy
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

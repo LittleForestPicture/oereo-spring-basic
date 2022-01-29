@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.core.scope.SingletonWithPrototypeTest1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T11:54:29" hostname="Macbookui-MacBookPro.local" time="0.015">
+<testsuite name="hello.core.scope.SingletonWithPrototypeTest1" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-28T13:38:26" hostname="Macbookui-MacBookPro.local" time="0.013">
   <properties/>
-  <testcase name="singletonClientUsePrototype()" classname="hello.core.scope.SingletonWithPrototypeTest1" time="0.015"/>
-  <system-out><![CDATA[PrototypeBean.init hello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@5fd4377
-PrototypeBean.init hello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@50659a9a
+  <testcase name="singletonClientUsePrototype()" classname="hello.core.scope.SingletonWithPrototypeTest1" time="0.013"/>
+  <system-out><![CDATA[PrototypeBean.init hello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@38e27eb9
+PrototypeBean.init hello.core.scope.SingletonWithPrototypeTest1$PrototypeBean@3ae62c8a
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
